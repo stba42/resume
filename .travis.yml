@@ -6,6 +6,7 @@ before_install:
 script:
 - npm install
 - npm start
+- chmod +x xelatex.sh
 - ./xelatex.sh
 deploy:
   provider: releases
