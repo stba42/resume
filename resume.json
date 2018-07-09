@@ -22,6 +22,7 @@
     "code": "69207",
     "country": "DE"
   },
+  "service" : null,
   "projects": [
     {
       "title": "Exklusivtitel",
