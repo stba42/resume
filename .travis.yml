@@ -12,6 +12,6 @@ deploy:
   provider: releases
   api_key:
     secure: Knn75U7smYlVPYt/sgIhlM2YahBYeU/pKx55Y2LpGKLawVmi2k9k5wjEZh9v0qOPSReuRQME31sxiHdoUfvDc+Xf1mVV2od8hdGxpKueQQwvRSieeVLOn9ZAgKqMVjzJgaMlZ/1Hxe4e+Rb8GwbsT7LajtWxpsVacRj1/651QY+aDY42WwEmhion0Ieup0p2aOQQf625ywK9q6CwRGtXXN+2Oeda151bhOjdCM+eMvOw4Xy+rw76OJ0d7zbZ8WcPyF3oFJuiBlZmkbelge3+mQYdY0nYeAc460Jun75bhPQM0Vrw3AUttnDhNNSAbplkYwSYwWpkmdpX2ojhP5CklPZ3JDC+KL/aMoDhBYpHThRSPZOmsHD3oI2qonhsRy8EEaXClIhakdVHtJFQebQopfjAP9ASck/wSBq30hdpc7Tc0M6s6BSo/yNBisKUTASImYYN4b3U3iARPMYOvwxK+P+UgKibdKwTG0ZM4zQu2X3WGQxHSFqHRQ3jS7O/9LocM5ELQAXuHZ8g1BzeaRBoJzRBTjuJ6hM2e2ie57R8pxq4urwujVJta8RhLmoR9Nncwi83bmgcXwqcfUl9Hht9WKf9nPW+QC4OmpmUg1Lni1ws0hlzY7B6kF0AxmWqLWBfnV8NiLhY8RFyeRqQHMULxijB20VdX+C4jd9W+KflrD0=
-  file: out/latex/examples/resume.pdf
+  file: out/latex/examples/cv.pdf
   on:
     repo: stba42/resume
