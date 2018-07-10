@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "hackmyresume build resume.json TO out/resume.latex -t awesome",
+    "start": "hackmyresume build resume.json TO out/resume.latex -t ./awesome",
     "validate": "hackmyresume validate resume.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
