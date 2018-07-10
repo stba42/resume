@@ -1,26 +1,22 @@
-[~ if (r.employment && r.employment.history && r.employment.history.length ) { ~]
+[~ if (r.projects && r.projects.length ) { ~]
 %-------------------------------------------------------------------------------
 %	SECTION TITLE
 %-------------------------------------------------------------------------------
-\cvsection{Experience}
+\cvsection{Projekte}
 
 
 %-------------------------------------------------------------------------------
 %	CONTENT
 %-------------------------------------------------------------------------------
 \begin{cventries}
-[~ _.each( r.employment.history, function(job) { ~]
+[~ _.each( r.projects, function(project) { ~]
 %---------------------------------------------------------
   \cventry
-    {[[ job.position ]]} % Job title
-    {[[ job.employer ]]} % Organization
-    {[[ job.location ]]} % Location
-    {[[ h.dateRange( job ) ]]} % Date(s)
-    {[~ if (job.highlights && job.highlights.length ) { ~]
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-[[ h.pad( job.highlights.map( function(h) { return '\\item {' + h + '}' }), -8 ) ]]
-      \end{cvitems}
-    [~ } ~]}
+    {[[ project.description ]]} % Job title
+    {[[ project.title ]]}
+    { }
+    {[[ h.dateRange( project ) ]]} % Date(s)
+    { [[ project.summary ]] }
 
 [~ }); ~]
 %---------------------------------------------------------
