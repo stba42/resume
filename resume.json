@@ -9,7 +9,7 @@
     "characterClass": "Programmer",
     "brief": "**Imaginary full-stack software developer with 6+ years industry experience** specializing in cloud-driven web applications and middleware. A native of southern CA, Jane enjoys hiking, mystery novels, and the company of Rufus, her two year old beagle.",
     "image": "stefan.jpg",
-    "quote": "Be the change you want to see in the world."
+    "quote": "Geht nicht, gibt's nicht."
   },
   "contact": {
     "website": "https://www.stefanbaust.de",
@@ -74,8 +74,8 @@
       "category": "side project",
       "role": "creator",
       "url": "https://www.ownyourfeed.com",
-      "description": "My programming blog. Powered by Jekyll.",
-      "summary": "Erstellung der Webseite und eines MVP auf Basis von Grails",
+      "description": "Webseite zum Überprüfen des eigenen Podcast-Feeds",
+      "summary": "Konzeption und Umsetzung",
       "keywords": [
         "Grails",
         "Vue.JS"
@@ -86,8 +86,8 @@
       "category": "side project",
       "role": "creator",
       "url": "https://www.unividify.com",
-      "description": "My programming blog. Powered by Jekyll.",
-      "summary": "Erstellung der Webseite und eines MVP auf Basis von Grails",
+      "description": "Service zum Upload von YouTube-Videos auf Facebook",
+      "summary": "Konzeption und Umsetzung",
       "keywords": [
         "Grails",
         "Facebook API",
@@ -138,10 +138,11 @@
           "Spring Boot",
           "Angular",
           "Microservices",
-          "Android"
+          "Android",
+          "OpenLayers"
         ],
         "highlights": [
-          "Managed a 5-person development team",
+          "Konzeption und Implementierung eines Map-SDKs auf Basis von OpenLayers und TypeScript",
           "Accomplishment 2",
           "Etc."
         ]
@@ -163,39 +164,19 @@
         ]
       },
       {
-        "employer": "Stark Industries",
-        "position": "IT Administrator",
-        "summary": "Junior programmer with heavy code responsibilities. Promoted to intermediate role after 6 months.",
-        "start": "2008-10",
-        "end": "2011-06",
-        "keywords": [
-          "Novell",
-          "Active Directory",
-          "Linux",
-          "Windows"
-        ],
-        "highlights": [
-          "Promoted to intermediate developer after 6 months",
-          "Accomplishment 2",
-          "Etc."
-        ]
-      },
-      {
-        "employer": "Dunder Mifflin",
-        "position": "Intern",
-        "summary": "Performed IT administration and deployments for Dunder Mifflin.",
+        "employer": "sobedi GmbH",
+        "url": "http://www.sobedi.com",
+        "position": "Softwareentwickler",
+        "summary": "Tätigkeit als Softwareentwickler nach dem Bachelorstudium bei einem Schwesterunternehmen der sobedi GmbH",
         "start": "2008-06",
-        "end": "2008-09",
+        "end": "2011-09",
         "keywords": [
-          "Novell",
-          "Active Directory",
-          "Linux",
-          "Windows"
+          "Java EE",
+          "ZK Framework",
+          "Eclipse RCP"
         ],
         "highlights": [
-          "Supervised roll-out of Dunder Mifflin Infinity website.",
-          "Performed mission-critical system backups and ",
-          "Etc."
+          "Implementierung einer DSL auf Basis von Groovy"
         ]
       }
     ]
