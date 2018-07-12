@@ -16,7 +16,10 @@
     {[[ project.title ]]}
     { }
     {[[ h.dateRange( project ) ]]} % Date(s)
-    { [[ project.summary ]] }
+    {
+      [[ project.summary ]] \endgraf
+\textit{[~ print( project.keywords.join(', ') ) ~]}
+    }
 
 [~ }); ~]
 %---------------------------------------------------------
