@@ -62,7 +62,7 @@
       "category": "side project",
       "role": "creator",
       "url": "https://www.getpodtube.net",
-      "description": "My programming blog. Powered by Jekyll.",
+      "description": "Service zum Upload von Videos als Podcast",
       "summary": "Erstellung der Webseite und eines MVP auf Basis von Grails",
       "keywords": [
         "Grails",
@@ -106,8 +106,8 @@
     {
       "label": "LinkedIn",
       "network": "LinkedIn",
-      "user": "stefan-baust-52116410b",
-      "url": "https://www.linkedin.com/in/stefan-baust-52116410b/"
+      "user": "stefan-baust",
+      "url": "https://www.linkedin.com/in/stefan-baust/"
     },
     {
       "label": "Xing",
@@ -164,41 +164,33 @@
         ]
       },
       {
-        "employer": "sobedi GmbH",
+        "employer": "sobedi GmbH / apinso GmbH",
         "url": "http://www.sobedi.com",
         "position": "Softwareentwickler",
-        "summary": "Tätigkeit als Softwareentwickler nach dem Bachelorstudium bei einem Schwesterunternehmen der sobedi GmbH",
-        "start": "2008-06",
+        "summary": "Tätigkeitsschwerpunkte: Konzeption und Implementierung von Anforderungen in Java und Groovy (Backend und Frontend)",
+        "start": "2008-10",
         "end": "2011-09",
         "keywords": [
           "Java EE",
           "ZK Framework",
           "Eclipse RCP"
-        ],
-        "highlights": [
-          "Implementierung einer DSL auf Basis von Groovy"
         ]
       }
     ]
   },
   "education": {
-    "summary": "",
+    "summary": "Bachelor of Science Angewandte Informatik",
     "level": "degree",
-    "degree": "BSCS",
+    "degree": "B.Sc.",
     "history": [
       {
-        "institution": "Cornell University",
-        "title": "BSCS",
-        "url": "https://www.cornell.edu/",
-        "start": "2005-09",
-        "end": "2008-05",
-        "grade": "3.5",
-        "summary": "A multiline summary of the education.",
-        "curriculum": [
-          "Course 1",
-          "Course 2",
-          "Course 2"
-        ]
+        "institution": "Duale Hochschule Baden-Württemberg",
+        "title": "B.Sc.",
+        "url": "https://www.dhbw-mannheim.de",
+        "start": "2008-10",
+        "end": "2011-09",
+        "grade": "Gesamt-GPA: 1,8",
+        "summary": "A multiline summary of the education."
       },
       {
         "institution": "Medfield College",
