@@ -46,6 +46,8 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
+\usepackage{hyperref}
+
 
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
@@ -87,11 +89,11 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-
+\input{cv/summary.tex}
 \input{cv/skills.tex}
-\input{cv/presentation.tex}
-\input{cv/writing.tex}
+% \input{cv/presentation.tex}
 \input{cv/projects.tex}
+\input{cv/writing.tex}
 \input{cv/experience.tex}
 \input{cv/education.tex}
 %\input{cv/extra_education.tex}

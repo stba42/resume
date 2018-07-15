@@ -12,8 +12,8 @@
 [~ _.each( r.projects, function(project) { ~]
 %---------------------------------------------------------
   \cventry
-    {[[ project.description ]]} % Job title
-    {[[ project.title ]]}
+    {[[ project.description ]] } % Job title
+    {[[ project.title ]] 	\textnormal{\textit{(\href{[[ project.url ]]}{[[ project.url ]]})}}}
     { }
     {[[ h.dateRange( project ) ]]} % Date(s)
     {
