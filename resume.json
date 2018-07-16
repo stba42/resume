@@ -142,9 +142,8 @@
           "OpenLayers"
         ],
         "highlights": [
-          "Konzeption und Implementierung eines Map-SDKs auf Basis von OpenLayers und TypeScript",
-          "Accomplishment 2",
-          "Etc."
+          "Konzeption und Implementierung eines Networking-Features für eine Messe-App was über 2.500 Menschen dabei half, sich besser zu vernetzen",
+          "Konzeption und Implementierung des Deep Map (TM) WebSDKs auf Basis von OpenLayers und TypeScript, was die Integration von Indoor-Karten für die Kunden wesentlich vereinfacht."
         ]
       },
       {
@@ -160,14 +159,14 @@
           "Eclipse RCP"
         ],
         "highlights": [
-          "Implementierung einer DSL auf Basis von Groovy"
+          "Implementierung einer DSL auf Basis von Groovy, die den Nutzern die Nutzung von Excel-Ähnlichen Formeln erlaubt."
         ]
       },
       {
         "employer": "sobedi GmbH / apinso GmbH",
         "url": "http://www.sobedi.com",
         "position": "Softwareentwickler",
-        "summary": "Tätigkeitsschwerpunkte: Konzeption und Implementierung von Anforderungen in Java und Groovy (Backend und Frontend)",
+        "summary": "Praxisphasen des dualen Studiums. Tätigkeitsschwerpunkte: Konzeption und Implementierung von Anforderungen in Java und Groovy (Backend und Frontend)",
         "start": "2008-10",
         "end": "2011-09",
         "keywords": [
@@ -179,32 +178,29 @@
     ]
   },
   "education": {
-    "summary": "Bachelor of Science Angewandte Informatik",
+    "summary": "Master of Science Informatik",
     "level": "degree",
-    "degree": "B.Sc.",
+    "degree": "M.Sc.",
     "history": [
       {
         "institution": "Duale Hochschule Baden-Württemberg",
+        "location": "Stuttgart",
+        "title": "M.Sc.",
+        "url": "https://www.dhbw-stuttgart.de",
+        "start": "2013-10",
+        "end": "2015-10",
+        "grade": "Note: 1,7",
+        "summary": "A multiline summary of the education."
+      },
+      {
+        "institution": "Duale Hochschule Baden-Württemberg",
+        "location": "Mannheim",
         "title": "B.Sc.",
         "url": "https://www.dhbw-mannheim.de",
         "start": "2008-10",
         "end": "2011-09",
         "grade": "Gesamt-GPA: 1,8",
         "summary": "A multiline summary of the education."
-      },
-      {
-        "institution": "Medfield College",
-        "title": "",
-        "url": "https://en.wikipedia.org/wiki/Medfield_College",
-        "start": "2003-09",
-        "end": "2005-06",
-        "grade": "3.2",
-        "summary": "A multiline summary of the education.",
-        "curriculum": [
-          "Course 1",
-          "Course 2",
-          "Course 2"
-        ]
       }
     ]
   },
