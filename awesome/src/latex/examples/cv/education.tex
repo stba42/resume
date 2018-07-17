@@ -12,7 +12,7 @@
 [~ _.each( r.education.history, function(edu) { ~]
 %---------------------------------------------------------
   \cventry
-    {[[ edu.title ]]} % Degree
+    {[[ edu.title ]] \textnormal{\textit{([[ edu.grade ]])}}} % Degree
     {[[ edu.institution ]]} % Institution
     {[[ edu.location ]]} % Location
     {[[ h.dateRange( edu ) ]]} % Date(s)
