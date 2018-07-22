@@ -165,14 +165,17 @@
       {
         "employer": "sobedi GmbH / apinso GmbH",
         "url": "http://www.sobedi.com",
-        "position": "Softwareentwickler",
-        "summary": "Praxisphasen des dualen Studiums. Tätigkeitsschwerpunkte: Konzeption und Implementierung von Anforderungen in Java und Groovy (Backend und Frontend)",
+        "position": "Softwareentwickler (Praxisphasen des dualen Studiums)",
+        "summary": "",
         "start": "2008-10",
         "end": "2011-09",
         "keywords": [
           "Java EE",
           "ZK Framework",
           "Eclipse RCP"
+        ],
+        "highlights": [
+          "Tätigkeitsschwerpunkte: Konzeption und Implementierung von Anforderungen in Java und Groovy (Backend und Frontend)"
         ]
       }
     ]
