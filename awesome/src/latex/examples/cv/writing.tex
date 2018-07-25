@@ -14,8 +14,8 @@
   \cventry
     {[~ if (_.isString(wri.publisher)) { ~]
     [[ wri.publisher]]
-    [~ } else { ~]
-    print( wri.publisher ? wri.publisher.name : 'Unknown' )
+    [~ } else if(wri.publisher) {  ~]
+    [[ wri.publisher.name ]]
     [~ } ~]} % Publisher
     {[[ wri.title ]]} % Title
     {[[ wri.url ]]} % URL

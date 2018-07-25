@@ -55,11 +55,11 @@
 %-------------------------------------------------------------------------------
 \name{[~ print(h.initialWords( r.name )) ~]}{[[ h.lastWord( r.name ) ]]}
 [~ if (r.info.label) { ~]\position{[[ r.info.label ]]}[~ } ~]
-\address{[[ r.location.address ]]}
+\address{[[ r.location.address ]], [[ r.location.code ]] [[ r.location.city ]], [[ r.location.country ]]}
 
 \mobile{[[ r.contact.phone ]]}
 \email{[[ r.contact.email ]]}
-\homepage{[[ r.contact.website ]]}
+\homepage{www.stefanbaust.de}
 [~ if (r.hasProfile('github')) { ~]\github{[[ r.getProfile('github').user ]]}[~ } ~]
 [~ if (r.hasProfile('linkedin')) { ~]\linkedin{[[ r.getProfile('linkedin').user ]]}[~ } ~]
 % \stackoverflow{SO-id}{SO-name}

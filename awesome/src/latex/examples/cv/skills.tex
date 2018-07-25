@@ -25,7 +25,7 @@
 %---------------------------------------------------------
   \cvskill
     {Languages} % Category
-    {[~ print( _.map( r.languages, function(lang) { return lang.language; }).join(', ')) ~]} % Skills
+    {[~ print( _.map( r.languages, function(lang) { return lang.language + ' ('+lang.level+')'; }).join(', ')) ~]} % Skills
 
 [~ } ~]
 

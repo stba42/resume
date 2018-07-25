@@ -5,7 +5,7 @@
     "version": "0.5.0"
   },
   "info": {
-    "label": "Senior Full-Stack Entwickler",
+    "label": "M. Sc. Informatik - Senior Full-Stack Entwickler",
     "characterClass": "Programmer",
     "brief": "**Imaginary full-stack software developer with 6+ years industry experience** specializing in cloud-driven web applications and middleware. A native of southern CA, Jane enjoys hiking, mystery novels, and the company of Rufus, her two year old beagle.",
     "image": "stefan.jpg",
@@ -20,7 +20,7 @@
     "address": "Hauptstr. 155",
     "city": "Sandhausen",
     "code": "69207",
-    "country": "DE"
+    "country": "Deutschland"
   },
   "service" : null,
   "projects": [
@@ -61,6 +61,7 @@
       "title": "PodTube",
       "category": "side project",
       "role": "creator",
+      "start": "2017",
       "url": "https://www.getpodtube.net",
       "description": "Service zum Upload von Videos als Podcast",
       "summary": "Erstellung der Webseite und eines MVP auf Basis von Grails",
@@ -73,6 +74,7 @@
       "title": "OwnYourFeed",
       "category": "side project",
       "role": "creator",
+      "start": "2017",
       "url": "https://www.ownyourfeed.com",
       "description": "Webseite zum Überprüfen des eigenen Podcast-Feeds",
       "summary": "Konzeption und Umsetzung",
@@ -211,155 +213,98 @@
       }
     ]
   },
-  "affiliation": {
-    "summary": "Member of numerous collegiate and professional groups and organizations.",
-    "history": [
-      {
-        "role": "Member",
-        "organization": "IEEE",
-        "url": "https://www.ieee.org/index.html",
-        "start": "2013-06",
-        "summary": "Member in good standing since 2013-06."
-      },
-      {
-        "role": "Member",
-        "organization": "Apple Developer Network",
-        "url": "https://developer.apple.com/",
-        "summary": "Member of the [Apple Developer program](https://developer.apple.com/) since 2008."
-      },
-      {
-        "role": "Subscriber",
-        "organization": "MSDN",
-        "url": "https://msdn.microsoft.com",
-        "start": "2010",
-        "summary": "Super-Ultra-gold level Ultimate Access MSDN subscriber package with subscription toaster and XBox ping pong racket."
-      },
-      {
-        "role": "Coordinator",
-        "organization": "Campus Coder's Meetup",
-        "start": "2003-02",
-        "end": "2004-04",
-        "summary": "Host of a monthly **campus-wide meetup for CS students**. Code, coffee, and crullers!"
-      }
-    ]
-  },
   "skills": {
     "sets": [
       {
-        "name": "Web",
-        "level": "advanced",
-        "skills": [
-          "JavaScript",
-          "HTML 5",
-          "CSS",
-          "LAMP",
-          "MVC",
-          "REST"
-        ]
-      },
-      {
-        "name": "JavaScript",
+        "name": "Programmiersprachen",
         "level": "master",
         "skills": [
-          "Node.js",
-          "Angular.js",
-          "jQuery",
-          "Bootstrap",
-          "React.js",
-          "Backbone.js"
+          "Java",
+          "Groovy",
+          "Kotlin",
+          "JavaScript",
+          "TypeScript"
         ]
       },
       {
-        "name": "Database",
-        "level": "intermediate",
+        "name": "Frontend",
+        "level": "master",
         "skills": [
-          "MySQL",
-          "PostgreSQL",
-          "NoSQL",
-          "ORM",
+          "HTML5",
+          "CSS3",
+          "Angular",
+          "SASS",
+          "Bootstrap"
+        ]
+      },
+      {
+        "name": "Backend",
+        "level": "master",
+        "skills": [
+          "Spring Boot",
+          "Grails",
           "Hibernate"
         ]
       },
       {
-        "name": "Cloud",
-        "level": "intermediate",
-        "skills": [
-          "AWS",
-          "EC2",
-          "RDS",
-          "S3",
-          "Azure",
-          "Dropbox"
-        ]
-      },
-      {
-        "name": "Project",
-        "level": "beginner",
-        "skills": [
-          "Agile",
-          "TFS",
-          "JIRA",
-          "GitHub",
-          "Unified Process",
-          "MS Project"
-        ]
-      }
-    ],
-    "list": [
-      {
-        "name": "C++",
-        "id": "1",
-        "summary": "Optional summary of your experience with the skill.",
-        "level": "9",
-        "years": 7,
-        "proof": "http://myblog.com/interesting-cplusplus-post"
-      },
-      {
-        "name": "Ruby",
-        "id": "2",
-        "summary": "Optional summary of your experience with the skill.",
-        "level": "9",
-        "years": 7,
-        "proof": "http://myblog.com/interesting-cplusplus-post"
-      },
-      {
-        "name": "Xcode",
-        "summary": "Xcode 6 development.",
-        "level": "5",
-        "years": "3"
-      },
-      {
-        "name": "Linux",
-        "summary": "Optional summary of your experience with the skill.",
+        "name": "Datenbanken",
         "level": "advanced",
-        "years": "4+"
+        "skills": [
+          "MySQL",
+          "PostgreSQL",
+          "MongoDB"
+        ]
       },
       {
-        "name": "Agile",
-        "summary": "Optional summary of your experience with the skill.",
-        "level": "B+",
-        "years": 2
+        "name": "Mobile",
+        "level": "master",
+        "skills": [
+          "Android",
+          "Ionic",
+          "Apache Cordova"
+        ]
+      },
+      {
+        "name": "Tools",
+        "level": "master",
+        "skills": [
+          "IntelliJ",
+          "Gradle",
+          "Maven",
+          "Webpack",
+          "Angular CLI",
+          "Git",
+          "Jenkins",
+          "Docker"
+        ]
+      },
+      {
+        "name": "Testing",
+        "level": "master",
+        "skills": [
+          "JUNit",
+          "Mockito",
+          "Jasmine",
+          "Karma"
+        ]
+      },
+      {
+        "name": "Projekt",
+        "level": "advanced",
+        "skills": [
+          "Agile Vorgehensweisen (insb. Scrum)",
+          "Test Driven Development",
+          "UML",
+          "VSTS",
+          "JIRA"
+        ]
       }
     ]
   },
-  "samples": [
-    {
-      "title": "Asteroids",
-      "summary": "A browser-based space shooter built on Three.js.",
-      "url": "http://janeblogs.com/portfolio/asteroids",
-      "date": "2014-09"
-    },
-    {
-      "title": "Rememberpedia",
-      "summary": "A website to help you remember things.",
-      "url": "https://rememberpedia.com",
-      "date": "2015-07"
-    }
-  ],
   "writing": [
     {
       "title": "Teach Yourself GORFF in 21 Days",
-      "flavor": "book",
+      "flavor": "article",
       "date": "2008",
       "publisher": {
         "name": "Amazon",
@@ -381,121 +326,20 @@
         "url": "http://codeproject.com"
       },
       "url": "http://codeproject.com/build-ui-electron-atom.aspx"
-    },
-    {
-      "title": "Jane Fullstacker's Blog",
-      "flavor": "blog",
-      "date": "2011",
-      "publisher": {
-        "name": "self",
-        "url": "https://www.janeblogs.com"
-      },
-      "url": "https://www.janeblogs.com"
-    }
-  ],
-  "reading": [
-    {
-      "title": "r/programming",
-      "flavor": "website",
-      "url": "https://www.reddit.com/r/programming/",
-      "summary": "Daily reader and longtime lurker."
-    },
-    {
-      "title": "Hacker News / YCombinator",
-      "flavor": "website",
-      "url": "https://news.ycombinator.com/",
-      "summary": "Daily reader and longtime lurker."
-    },
-    {
-      "title": "Coding Horror",
-      "flavor": "blog",
-      "url": "http://www.codinghorror.com",
-      "author": "Jeff Atwood",
-      "summary": "Reader since 2007; member of the StackOverflow Beta."
-    },
-    {
-      "title": "Code Complete",
-      "flavor": "book",
-      "url": "http://www.cc2e.com/Default.aspx",
-      "author": "Steve McConnell",
-      "date": "2014-09",
-      "summary": "My 'desert-island' software construction manual."
-    }
-  ],
-  "speaking": [
-    {
-      "title": "Data Warehousing Evolved: DARMA 2.0",
-      "role": "Speaker",
-      "event": "OPENSTART 2013 Developer's Conference",
-      "location": "Portland, OR",
-      "date": "2012",
-      "highlights": [
-        "Won 'Best Presentation on an Emerging Technical Field' prize."
-      ]
-    }
-  ],
-  "recognition": [
-    {
-      "flavor": "award",
-      "from": "Google",
-      "title": "Honorable Mention",
-      "event": "Summer of Code",
-      "date": "2012"
-    },
-    {
-      "flavor": "honor",
-      "from": "Cornell University",
-      "title": "Summa cum laude",
-      "event": "graduation",
-      "date": "2012"
-    }
-  ],
-  "references": [
-    {
-      "name": "John Davidson",
-      "flavor": "professional",
-      "private": true,
-      "contact": [
-        {
-          "label": "Mobile",
-          "flavor": "phone",
-          "value": "9-(999)-999-9999"
-        },
-        {
-          "label": "Work email",
-          "flavor": "email",
-          "value": "jdavidson@veridiandynamics.com"
-        }
-      ]
-    }
-  ],
-  "testimonials": [
-    {
-      "name": "John Davidson",
-      "flavor": "professional",
-      "quote": "Jane is awesome! I'd hire her again in a heartbeat.",
-      "private": true
-    },
-    {
-      "name": "Elias Fullstacker",
-      "flavor": "technical",
-      "quote": "I worked with Jane on Jabberwocky and can vouch for her awesome technical capabilities and attention to detail. Insta-hire."
-    },
-    {
-      "name": "Dana Nevins",
-      "flavor": "personal",
-      "quote": "I've known Jane personally and professionally for almost ten years. She is one in a million."
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "level": "Native"
+      "language": "Deutsch",
+      "level": "Muttersprache"
     },
     {
-      "language": "Spanish",
-      "level": "Moderate",
-      "years": 10
+      "language": "Englisch",
+      "level": "verhandlungssicher"
+    },
+    {
+      "language": "Französisch",
+      "level": "Grundkenntnisse"
     }
   ],
   "extracurricular": [
@@ -515,45 +359,6 @@
         "Monthly speaker on creative JavaScript development.",
         "Founded group and oversaw growth to 500+ members."
       ]
-    }
-  ],
-  "governance": [
-    {
-      "flavor": "board",
-      "role": "Member",
-      "organization": "The Mommies Network",
-      "url": "http://themommiesnetwork.org",
-      "start": "2008-02",
-      "end": "2010-01",
-      "summary": "Since 2008 I've been a full-time member of the board of directors for TMN."
-    },
-    {
-      "flavor": "committee",
-      "role": "Academic Contributor",
-      "organization": "Khronos Group",
-      "url": "https://www.khronos.org",
-      "start": "2015-01",
-      "highlights": [
-        "Participated in GORFF standardization process (Draft 2)."
-      ]
-    }
-  ],
-  "interests": [
-    {
-      "name": "reading",
-      "summary": "Jane is a fan of mystery novels and courtroom dramas including Agatha Christie and John Grisham.",
-      "keywords": [
-        "mystery",
-        "Agatha Christie",
-        "John Grisham"
-      ]
-    },
-    {
-      "name": "hiking",
-      "summary": "Jane enjoys hiking, light mountain climbing, and has four summits under her belt!"
-    },
-    {
-      "name": "yoga"
     }
   ]
 }
