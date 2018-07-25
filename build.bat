@@ -1,3 +1,4 @@
+cd C:/Data/projekte/resume
 CMD /C npm run start
 cd out/latex/examples
 xelatex cv.tex
