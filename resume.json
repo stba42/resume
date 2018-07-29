@@ -29,10 +29,9 @@
       "category": "side project",
       "role": "Creator",
       "url": "http://www.exklusivtitel.de/",
-      "start": "2015",
-      "repo": "https://github.com/hacksalot/hackmyresume",
-      "description": "A resume authoring and analysis tool for OS X, Linux, and Windows.",
-      "summary": "Exemplar user for HackMyResume and FluentCV!",
+      "start": "2015‑06",
+      "description": "Seite zum Suchen und Finden von Videospielen, die nur für bestimmte Plattformen enrschienen sind",
+      "summary": "Konzeption und Umsetzung - Der Hauptbestandteil ist ein Import von WikiData in Elasticsearch um eine schnelle Durchsuchbarkeit zu ermöglichen",
       "keywords": [
         "WikiData",
         "Elasticsearch",
@@ -45,7 +44,7 @@
       "role": "Creator",
       "url": "https://www.cinemarker.net/",
       "description": "App zum Verwalten der Filme, die man noch sehen möchte. ",
-      "start": "2016",
+      "start": "2016‑03",
       "summary": "Erstellung und Deployment des Backends, der Android App (mit Unterstützung eines Remote-Freelancers) und Landingpage",
       "keywords": [
         "Android",
@@ -58,29 +57,43 @@
       ]
     },
     {
-      "title": "PodTube",
+      "title": "Schnäppchenblogs.de (Domain verkauft)",
       "category": "side project",
-      "role": "creator",
-      "start": "2017",
-      "url": "https://www.getpodtube.net",
-      "description": "Service zum Upload von Videos als Podcast",
-      "summary": "Erstellung der Webseite und eines MVP auf Basis von Grails",
+      "role": "Creator",
+      "url": "https://bit.ly/2OpGUSl",
+      "start": "2011‑08",
+      "end": "2016‑11",
+      "description": "Metasuchmaschine für Online-Schnäppchen",
+      "summary": "Erstes mit Grails umgesetztes Projekt, erleichterte zeitweise täglich über 150 Nutzern die Suche nach Schnäppchen.",
       "keywords": [
         "Grails",
-        "JMS"
+        "Searchable Plugin"
       ]
     },
     {
       "title": "OwnYourFeed",
       "category": "side project",
       "role": "creator",
-      "start": "2017",
+      "start": "2017‑09",
       "url": "https://www.ownyourfeed.com",
       "description": "Webseite zum Überprüfen des eigenen Podcast-Feeds",
       "summary": "Konzeption und Umsetzung",
       "keywords": [
         "Grails",
         "Vue.JS"
+      ]
+    },
+    {
+      "title": "PodTube",
+      "category": "side project",
+      "role": "creator",
+      "start": "2017-03",
+      "url": "https://www.getpodtube.net",
+      "description": "Service zum Upload von Videos als Podcast",
+      "summary": "Erstellung der Webseite und eines MVP auf Basis von Grails",
+      "keywords": [
+        "Grails",
+        "JMS"
       ]
     },
     {
