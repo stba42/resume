@@ -16,7 +16,8 @@
     {[[ job.employer ]] \textnormal{\textit{(\href{[[ job.url ]]}{[[ job.url ]]})}}} % Organization
     {[[ job.location ]]} % Location
     {[[ h.dateRange( job ) ]]} % Date(s)
-    {[[ job.summary ]]}
+    {[[ job.summary ]] \endgraf
+\textit{[~ print( job.keywords.join(', ') ) ~]}}
 [~ }); ~]
 %---------------------------------------------------------
 \end{cventries}

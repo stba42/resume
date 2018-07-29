@@ -11,8 +11,8 @@
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
-    "hackmyresume": "github:hacksalot/hackmyresume#dev",
     "fresh-themes": "0.17.0-beta",
+    "hackmyresume": "file:hackmyresume",
     "jsonresume-theme-classy": "^1.0.9",
     "jsonresume-theme-kendall": "^0.1.19"
   }

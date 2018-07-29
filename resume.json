@@ -1,8 +1,8 @@
 {
   "name": "Stefan Baust",
   "meta": {
-    "format": "FRESH@0.6.0",
-    "version": "0.5.0"
+    "format": "FRESH@1.0.0-beta",
+    "version": "1.0.0"
   },
   "info": {
     "label": "M. Sc. Informatik - Senior Full-Stack Entwickler",
@@ -29,7 +29,7 @@
       "category": "side project",
       "role": "Creator",
       "url": "http://www.exklusivtitel.de/",
-      "start": "2015‑06",
+      "start": "2015-06",
       "description": "Seite zum Suchen und Finden von Videospielen, die nur für bestimmte Plattformen enrschienen sind",
       "summary": "Konzeption und Umsetzung - Der Hauptbestandteil ist ein Import von WikiData in Elasticsearch um eine schnelle Durchsuchbarkeit zu ermöglichen",
       "keywords": [
@@ -44,7 +44,7 @@
       "role": "Creator",
       "url": "https://www.cinemarker.net/",
       "description": "App zum Verwalten der Filme, die man noch sehen möchte. ",
-      "start": "2016‑03",
+      "start": "2016-03",
       "summary": "Erstellung und Deployment des Backends, der Android App (mit Unterstützung eines Remote-Freelancers) und Landingpage",
       "keywords": [
         "Android",
@@ -61,8 +61,8 @@
       "category": "side project",
       "role": "Creator",
       "url": "https://bit.ly/2OpGUSl",
-      "start": "2011‑08",
-      "end": "2016‑11",
+      "start": "2011-08",
+      "end": "2016-11",
       "description": "Metasuchmaschine für Online-Schnäppchen",
       "summary": "Erstes mit Grails umgesetztes Projekt, erleichterte zeitweise täglich über 150 Nutzern die Suche nach Schnäppchen.",
       "keywords": [
@@ -74,7 +74,7 @@
       "title": "OwnYourFeed",
       "category": "side project",
       "role": "creator",
-      "start": "2017‑09",
+      "start": "2017-09",
       "url": "https://www.ownyourfeed.com",
       "description": "Webseite zum Überprüfen des eigenen Podcast-Feeds",
       "summary": "Konzeption und Umsetzung",
