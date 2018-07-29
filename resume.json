@@ -303,29 +303,35 @@
   },
   "writing": [
     {
-      "title": "Teach Yourself GORFF in 21 Days",
+      "title": "React(nat)ive Katzen - Native Apps mit JavaScript",
       "flavor": "article",
-      "date": "2008",
+      "date": "2016-06",
       "publisher": {
-        "name": "Amazon",
-        "url": "https://www.amazon.com"
+        "name": "Java Magazin 6.16",
+        "url": "https://jaxenter.de"
       },
-      "url": "http://url.to.publication.com/blah",
+      "url": "https://jaxenter.de/ausgaben/java-magazin-6-16",
       "author": [
-        "Jane Fullstacker",
-        "John Smith"
+        "Stefan Baust",
+        "Dirk Dorsch"
       ],
-      "summary": "A primer on the programming language of GORFF, whose for loops are coterminous with all of time and space."
+      "summary": "Native Apps mit JavaScript"
     },
     {
-      "title": "Building User Interfaces with Electron and Atom",
+      "title": "E-Mail-Verschlüsselung leicht gemacht–oder nur neuer Wein in alten Schläuchen?",
       "flavor": "article",
-      "date": "2011",
+      "date": "2015-02",
       "publisher": {
-        "name": "Code Project",
-        "url": "http://codeproject.com"
+        "name": "Sicherheit in vernetzten Systemen: 22. DFN-Konferenz",
+        "url": "https://www.dfn-cert.de/"
       },
-      "url": "http://codeproject.com/build-ui-electron-atom.aspx"
+      "author": [
+        "Stefan Baust",
+        "Wladislaw Mitzel",
+        "Prof. Dr. Tobias Straub"
+      ],
+      "summary": "Analyse von neuartigen E-Mail Verschlüsselungs-Tools",
+      "url": "https://amzn.to/2OspmF5"
     }
   ],
   "languages": [
