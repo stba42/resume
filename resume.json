@@ -147,7 +147,7 @@
         "url": "https://www.heidelberg-mobil.com/",
         "position": "Softwareentwickler",
         "location": "Heidelberg",
-        "summary": "Hallo",
+        "summary": "",
         "start": "2012-02",
         "keywords": [
           "Java",
@@ -161,8 +161,9 @@
           "OpenLayers"
         ],
         "highlights": [
-          "Konzeption und Implementierung eines Networking-Features für eine Messe-App was über 2.500 Menschen dabei half, sich besser zu vernetzen",
-          "Konzeption und Implementierung des Deep Map (TM) WebSDKs auf Basis von OpenLayers und TypeScript, was die Integration von Indoor-Karten für die Kunden wesentlich vereinfacht."
+          "Mitarbeit an der Umsetzung eins Networking-Features für eine Messe-App, welches über 2.500 Menschen dabei half, sich besser zu vernetzen. Mit Kunden und beteiligten Entwicklern von externen Dienstleistern abgestimmt und Integration von App und externem Backend betreut und für Android selbst umgesetzt.",
+          "Maßgebliche Beteiligung am Deep Map (TM) WebSDK Version 2+, welches die Integration von Indoor-Karten für Kunden wesentlich vereinfacht. Technologien ausgewählt, Architektur konzipiert und abgestimmt, Neu-Implementierung verschiedener Komponenten auf Basis der neusten OpenLayers-Version, TypeScript und weiteren zeitgemäßen Technologien",
+          "Konfiguration von Messe-Web-Apps automatisiert und somit große Zeiteinsparung ermöglicht. Bestehenden Excel-Parser umfangreich Erweitert sowie fast vollständige Automatisierung der Konfiguration mithilfe von Jenkins erreicht"
         ]
       },
       {
@@ -179,7 +180,7 @@
           "Eclipse RCP"
         ],
         "highlights": [
-          "Implementierung einer DSL auf Basis von Groovy, die den Nutzern die Nutzung von Excel-Ähnlichen Formeln erlaubt."
+          ""
         ]
       },
       {
@@ -187,16 +188,20 @@
         "url": "http://www.sobedi.com",
         "position": "Softwareentwickler (Praxisphasen des dualen Studiums)",
         "location": "Mannheim",
-        "summary": "Hallo",
+        "summary": "Praxisphasen des dualen Studiums. Tätigkeitsschwerpunkte: Konzeption und Implementierung von Anforderungen in Java und Groovy (Backend und Frontend)",
         "start": "2008-10",
         "end": "2011-09",
         "keywords": [
           "Java EE",
+          "Groovy",
           "ZK Framework",
-          "Eclipse RCP"
+          "Eclipse RCP",
+          "Apache Ant"
         ],
         "highlights": [
-          "Tätigkeitsschwerpunkte: Konzeption und Implementierung von Anforderungen in Java und Groovy (Backend und Frontend)"
+          "Implementierung einer domänenspezifischen Sprache auf Basis von Groovy, die den Nutzern die Nutzung von Excel-Ähnlichen Formeln erlaubt.",
+          "Tool zum automatischen Vergleichen von Applikations-Datenbanken umgesetzt, um eine erfogreiche Datenmigration sicherzustellen. Teilweise vor Ort beim Kunden (Schweiz)",
+          "Deployment von Applikationen mithilfe von Apache Ant automatisiert"
         ]
       }
     ]
