@@ -17,6 +17,10 @@
     {[[ job.location ]]} % Location
     {[[ h.dateRange( job ) ]]} % Date(s)
     {[[ job.summary ]] \endgraf
+\begin{itemize}[leftmargin=*,rightmargin=2cm] % Description(s) of tasks/responsibilities
+[[ h.pad( job.highlights.map( function(h) { return '\\item{' + h + '}' }), -8 ) ]]
+\end{itemize}
+\endgraf
 \textit{[~ print( job.keywords.join(', ') ) ~]}}
 [~ }); ~]
 %---------------------------------------------------------
