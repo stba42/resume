@@ -48,7 +48,7 @@ var GenericHelpers = (module.exports = {
   formatDate(datetime, dtFormat, fallback) {
 
     if (datetime == null) { datetime = undefined; }
-    if (dtFormat == null) { dtFormat = 'YYYY-MM'; }
+    if (dtFormat == null) { dtFormat = 'MMMM YYYY'; }
 
     // If a Moment.js object was passed in, just call format on it
     if (datetime && moment.isMoment(datetime)) {
@@ -76,7 +76,7 @@ var GenericHelpers = (module.exports = {
     return datetime ||
       (typeof fallback === 'string'
       ? fallback
-      : (fallback === true ? 'Present' : ''));
+      : (fallback === true ? 'Heute' : ''));
   },
 
 
@@ -92,7 +92,7 @@ var GenericHelpers = (module.exports = {
   date(dateValue, dateFormat, dateDefault) {
 
     if (!dateDefault || !String.is(dateDefault)) { dateDefault = 'Current'; }
-    if (!dateFormat || !String.is(dateFormat)) { dateFormat = 'YYYY-MM'; }
+    if (!dateFormat || !String.is(dateFormat)) { dateFormat = 'MMMM YYYY'; }
     if (!dateValue || !String.is(dateValue)) { dateValue = null; }
     if (!dateValue) { return dateDefault; }
 
@@ -628,7 +628,7 @@ var _fromTo = function( dateA, dateB, fmt, sep, fallback ) {
   const dateBTrim = dateB.trim().toLowerCase();
   const reserved = ['current','present','now', ''];
 
-  fmt = (fmt && String.is(fmt) && fmt) || 'YYYY-MM';
+  fmt = (fmt && String.is(fmt) && fmt) || 'MMMM YYYY';
   sep = (sep && String.is(sep) && sep) || ' — ';
 
   if (_.contains( reserved, dateATrim )) {
@@ -639,7 +639,7 @@ var _fromTo = function( dateA, dateB, fmt, sep, fallback ) {
   }
 
   if (_.contains( reserved, dateBTrim )) {
-    dateTo = fallback || 'Present';
+    dateTo = fallback || 'Heute';
   } else {
     dateTemp = FluentDate.fmt( dateB );
     dateTo = dateTemp.format( fmt );

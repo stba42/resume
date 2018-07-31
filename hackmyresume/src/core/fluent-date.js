@@ -46,6 +46,7 @@ class FluentDate {
 
 const months = {};
 const abbr = {};
+moment.locale('de');
 moment.months().forEach((m,idx) => months[m.toLowerCase()] = idx+1);
 moment.monthsShort().forEach((m,idx) => abbr[m.toLowerCase()]=idx+1);
 abbr.sept = 9;
