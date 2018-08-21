@@ -71,19 +71,6 @@
       ]
     },
     {
-      "title": "OwnYourFeed",
-      "category": "side project",
-      "role": "creator",
-      "start": "2017-09",
-      "url": "https://www.ownyourfeed.com",
-      "description": "Webseite zum Überprüfen des eigenen Podcast-Feeds",
-      "summary": "Konzeption und Umsetzung",
-      "keywords": [
-        "Grails",
-        "Vue.JS"
-      ]
-    },
-    {
       "title": "PodTube",
       "category": "side project",
       "role": "creator",
@@ -97,20 +84,18 @@
       ]
     },
     {
-      "title": "Unividfy",
+      "title": "OwnYourFeed",
       "category": "side project",
       "role": "creator",
-      "start": "2017-06",
-      "url": "https://www.unividify.com",
-      "description": "Service zum Upload von YouTube-Videos auf Facebook",
+      "start": "2017-09",
+      "url": "https://www.ownyourfeed.com",
+      "description": "Webseite zum Überprüfen des eigenen Podcast-Feeds",
       "summary": "Konzeption und Umsetzung",
       "keywords": [
         "Grails",
-        "Facebook API",
-        "YouTube API"
+        "Vue.JS"
       ]
     }
-
   ],
   "social": [
     {
@@ -143,16 +128,39 @@
     "summary": "",
     "history": [
       {
+        "employer": "BridgingIT GmbH (ehem. Heidelberg mobil International GmbH)",
+        "url": "https://www.bridging-it.de/",
+        "position": "Consultant",
+        "location": "Heidelberg",
+        "summary": "",
+        "start": "2018-07",
+        "keywords": [
+          "Java",
+          "Spring Boot",
+          "Angular",
+          "OAuth"
+        ],
+        "highlights": [
+          "Verschiedene Erweiterungen am Backend (Spring Boot) für eine App im Bereich Elektromobilität für ein börsennotiertes Energieversorgungsunternehmen",
+          "Aufbau eines Portals für die Verwaltung von Ladesäulen und der Elektroauto-Flotte auf Basis von Angular und dem bestehenden Spring Boot Backend"
+        ]
+      },
+      {
         "employer": "Heidelberg mobil International GmbH",
         "url": "https://www.heidelberg-mobil.com/",
         "position": "Softwareentwickler",
         "location": "Heidelberg",
         "summary": "",
         "start": "2012-02",
+        "end": "2018-06",
         "keywords": [
           "Java",
+          "JavaScript",
+          "TypeScript",
           "Groovy",
           "Spring Boot",
+          "REST",
+          "SOAP",
           "Angular",
           "Microservices",
           "OAuth",
@@ -163,6 +171,7 @@
         "highlights": [
           "Mitarbeit an der Umsetzung eins Networking-Features für eine Messe-App, welches über 2.500 Menschen dabei half, sich besser zu vernetzen. Mit Kunden und beteiligten Entwicklern von externen Dienstleistern abgestimmt und Integration von App und externem Backend betreut und für Android selbst umgesetzt.",
           "Maßgebliche Beteiligung am Deep Map (TM) WebSDK Version 2+, welches die Integration von Indoor-Karten für Kunden wesentlich vereinfacht. Technologien ausgewählt, Architektur konzipiert und abgestimmt, Neu-Implementierung verschiedener Komponenten auf Basis der neusten OpenLayers-Version, TypeScript und weiteren zeitgemäßen Technologien",
+          "Dritt-Services (SOAP, REST) von Kundensystemen im Messeumfeld angebunden, um Nutzerdaten zwischen Webseite und Mobiler App zu synchronisieren",
           "Konfiguration von Messe-Web-Apps automatisiert und somit große Zeiteinsparung ermöglicht. Bestehenden Excel-Parser umfangreich Erweitert sowie fast vollständige Automatisierung der Konfiguration mithilfe von Jenkins erreicht"
         ]
       },
@@ -171,16 +180,14 @@
         "url": "http://www.apinso.com",
         "position": "Softwareentwickler",
         "location": "Mannheim",
-        "summary": "Tätigkeit als Softwareentwickler nach dem Bachelorstudium bei einem Schwesterunternehmen der sobedi GmbH",
+        "summary": "Tätigkeit als Softwareentwickler nach dem Bachelorstudium beim Schwesterunternehmen der sobedi GmbH",
         "start": "2011-10",
         "end": "2012-02",
         "keywords": [
           "Java EE",
           "ZK Framework",
-          "Eclipse RCP"
-        ],
-        "highlights": [
-          ""
+          "Eclipse RCP",
+          "JBoss"
         ]
       },
       {

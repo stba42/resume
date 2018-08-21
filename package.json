@@ -6,7 +6,8 @@
   "scripts": {
     "start": "hackmyresume build resume.json TO out/resume.latex -t ./awesome",
     "validate": "hackmyresume validate resume.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "xelatex": "build_latex.bat"
   },
   "author": "",
   "license": "UNLICENSED",
