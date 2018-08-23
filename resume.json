@@ -137,12 +137,13 @@
         "keywords": [
           "Java",
           "Spring Boot",
+          "JUnit",
           "Angular",
           "OAuth"
         ],
         "highlights": [
           "Verschiedene Erweiterungen am Backend (Spring Boot) für eine App im Bereich Elektromobilität für ein börsennotiertes Energieversorgungsunternehmen",
-          "Aufbau eines Portals für die Verwaltung von Ladesäulen und der Elektroauto-Flotte auf Basis von Angular und dem bestehenden Spring Boot Backend"
+          "Aufbau eines Portals für die Verwaltung von Ladesäulen und von Elektroauto-Flotten auf Basis von Angular und dem bestehenden Spring Boot Backend"
         ]
       },
       {
@@ -159,6 +160,7 @@
           "TypeScript",
           "Groovy",
           "Spring Boot",
+          "JUnit",
           "REST",
           "SOAP",
           "Angular",
@@ -169,7 +171,8 @@
           "OpenLayers"
         ],
         "highlights": [
-          "Mitarbeit an der Umsetzung eins Networking-Features für eine Messe-App, welches über 2.500 Menschen dabei half, sich besser zu vernetzen. Mit Kunden und beteiligten Entwicklern von externen Dienstleistern abgestimmt und Integration von App und externem Backend betreut und für Android selbst umgesetzt.",
+          "Mitarbeit an einem Networking-Features für eine Messe-App, welches über 2.500 Menschen dabei half, sich besser zu vernetzen. Mit Kunden und beteiligten Entwicklern von externen Dienstleistern abgestimmt und Integration von App und externem Backend betreut und für Android selbst umgesetzt.",
+          "App und Webfrontend für ein mobiles Formularmanagements auf Basis von Ionic und AngularJS implementiert, sowie Keycloak als OAuth2-Provider integriert. In einem Scrum-Team mit Backend-Entwicklern, Frontend-Entwicklern und QA eng zusammgearbeitet und Anforderungen mit allen beteiligten abgestimmt.",
           "Maßgebliche Beteiligung am Deep Map (TM) WebSDK Version 2+, welches die Integration von Indoor-Karten für Kunden wesentlich vereinfacht. Technologien ausgewählt, Architektur konzipiert und abgestimmt, Neu-Implementierung verschiedener Komponenten auf Basis der neusten OpenLayers-Version, TypeScript und weiteren zeitgemäßen Technologien",
           "Dritt-Services (SOAP, REST) von Kundensystemen im Messeumfeld angebunden, um Nutzerdaten zwischen Webseite und Mobiler App zu synchronisieren",
           "Konfiguration von Messe-Web-Apps automatisiert und somit große Zeiteinsparung ermöglicht. Bestehenden Excel-Parser umfangreich Erweitert sowie fast vollständige Automatisierung der Konfiguration mithilfe von Jenkins erreicht"
