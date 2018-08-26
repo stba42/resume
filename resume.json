@@ -7,7 +7,7 @@
   "info": {
     "label": "M. Sc. Informatik - Senior Full-Stack Entwickler",
     "characterClass": "Programmer",
-    "brief": "**Imaginary full-stack software developer with 6+ years industry experience** specializing in cloud-driven web applications and middleware. A native of southern CA, Jane enjoys hiking, mystery novels, and the company of Rufus, her two year old beagle.",
+    "brief": "Senior Softwareentwickler mit technologischem Schwerpunkt im Java-Backend- und JavaScript-Frontend-Umfeld. Sicher beim Arbeiten mit großen Enterprise-Softwareprojekten, aber auch mit Projekten auf der grünen Wiese sowohl alleine als auch im Team. Hoher Anspruch an Codequalität und erfahren mit Testautomatisierung, Test-Driven Development, agilen Vorgehensweisen, Softwarearchitektur und in der Kundenkommunikation.",
     "image": "stefan.jpg",
     "quote": "Geht nicht, gibt's nicht."
   },
@@ -31,7 +31,7 @@
       "url": "http://www.exklusivtitel.de/",
       "start": "2015-06",
       "description": "Seite zum Suchen und Finden von Videospielen, die nur für bestimmte Plattformen enrschienen sind",
-      "summary": "Konzeption und Umsetzung - Der Hauptbestandteil ist ein Import von WikiData in Elasticsearch um eine schnelle Durchsuchbarkeit zu ermöglichen",
+      "summary": "Konzipiert und Umgesetzt - Der Hauptbestandteil des Projekts ist ein Import von WikiData in Elasticsearch um eine schnelle Durchsuchbarkeit zu ermöglichen",
       "keywords": [
         "WikiData",
         "Elasticsearch",
@@ -90,7 +90,7 @@
       "start": "2017-09",
       "url": "https://www.ownyourfeed.com",
       "description": "Webseite zum Überprüfen des eigenen Podcast-Feeds",
-      "summary": "Konzeption und Umsetzung",
+      "summary": "Konzeption und Umsetzung auf Basis von Grails und Vue.JS",
       "keywords": [
         "Grails",
         "Vue.JS"
@@ -173,9 +173,10 @@
         "highlights": [
           "Mitarbeit an einem Networking-Features für eine Messe-App, welches über 2.500 Menschen dabei half, sich besser zu vernetzen. Mit Kunden und beteiligten Entwicklern von externen Dienstleistern abgestimmt und Integration von App und externem Backend betreut und für Android selbst umgesetzt.",
           "App und Webfrontend für ein mobiles Formularmanagements auf Basis von Ionic und AngularJS implementiert, sowie Keycloak als OAuth2-Provider integriert. In einem Scrum-Team mit Backend-Entwicklern, Frontend-Entwicklern und QA eng zusammgearbeitet und Anforderungen mit allen beteiligten abgestimmt.",
-          "Maßgebliche Beteiligung am Deep Map (TM) WebSDK Version 2+, welches die Integration von Indoor-Karten für Kunden wesentlich vereinfacht. Technologien ausgewählt, Architektur konzipiert und abgestimmt, Neu-Implementierung verschiedener Komponenten auf Basis der neusten OpenLayers-Version, TypeScript und weiteren zeitgemäßen Technologien",
-          "Dritt-Services (SOAP, REST) von Kundensystemen im Messeumfeld angebunden, um Nutzerdaten zwischen Webseite und Mobiler App zu synchronisieren",
-          "Konfiguration von Messe-Web-Apps automatisiert und somit große Zeiteinsparung ermöglicht. Bestehenden Excel-Parser umfangreich Erweitert sowie fast vollständige Automatisierung der Konfiguration mithilfe von Jenkins erreicht"
+          "Maßgebliche Beteiligung am Deep Map (TM) WebSDK Version 2+, welches die Integration von Indoor-Karten für Kunden wesentlich vereinfacht. Technologien ausgewählt, Architektur konzipiert und abgestimmt, Neu-Implementierung verschiedener Komponenten auf Basis der neusten OpenLayers-Version, TypeScript und weiteren zeitgemäßen Technologien.",
+          "Dritt-Services (SOAP, REST) von Kundensystemen im Messeumfeld angebunden, um Nutzerdaten zwischen Webseite und Mobiler App zu synchronisieren.",
+          "Konfiguration von Messe-Web-Apps automatisiert und somit große Zeiteinsparung ermöglicht. Bestehenden Excel-Parser umfangreich Erweitert sowie fast vollständige Automatisierung der Konfiguration mithilfe von Jenkins erreicht.",
+          "Web-Apps für Messen und Kongresse auf Basis einer existierenden Codebasis (Grails, Spring Framework) erstellt und für individuelle Anforderungen angepassst und um neue Funktionen erweitert."
         ]
       },
       {
@@ -210,8 +211,8 @@
         ],
         "highlights": [
           "Implementierung einer domänenspezifischen Sprache auf Basis von Groovy, die den Nutzern die Nutzung von Excel-Ähnlichen Formeln erlaubt.",
-          "Tool zum automatischen Vergleichen von Applikations-Datenbanken umgesetzt, um eine erfogreiche Datenmigration sicherzustellen. Teilweise vor Ort beim Kunden (Schweiz)",
-          "Deployment von Applikationen mithilfe von Apache Ant automatisiert"
+          "Tool zum automatischen Vergleichen von Applikations-Datenbanken umgesetzt, um eine erfogreiche Datenmigration sicherzustellen. Teilweise vor Ort beim Kunden (Schweiz).",
+          "Deployment von Applikationen mithilfe von Apache Ant automatisiert."
         ]
       }
     ]
@@ -294,7 +295,7 @@
         "level": "master",
         "skills": [
           "Android",
-          "Ionic",
+          "Ionic Framework",
           "Apache Cordova"
         ]
       },
