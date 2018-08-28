@@ -16,8 +16,8 @@
     {[[ job.employer ]] \textnormal{\textit{(\href{[[ job.url ]]}{[[ job.url ]]})}}} % Organization
     {[[ job.location ]]} % Location
     {[[ h.dateRange( job ) ]]} % Date(s)
-    {[~ if (job.summary && job.summary.length > 0) { ~][[ job.summary ]] \endgraf [~ } ~] [~ if (job.highlights && job.highlights.length ) { ~]
-\begin{itemize}[leftmargin=*,rightmargin=2cm] % Description(s) of tasks/responsibilities
+    {[~ if (job.summary && job.summary.length > 0) { ~][[ job.summary ]] \endgraf [~ } else {~] \vspace{-1.0\baselineskip} [~ } ~][~ if (job.highlights && job.highlights.length ) { ~]
+\begin{itemize}[leftmargin=*,rightmargin=0.5cm] % Description(s) of tasks/responsibilities
 [[ h.pad( job.highlights.map( function(h) { return '\\item{' + h + '}' }), -8 ) ]]
 \end{itemize}
 [~ } ~]\endgraf \textit{[~ print( job.keywords.join(', ') ) ~]}}

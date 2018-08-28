@@ -7,7 +7,7 @@
   "info": {
     "label": "M. Sc. Informatik - Senior Full-Stack Entwickler",
     "characterClass": "Programmer",
-    "brief": "Senior Softwareentwickler mit technologischem Schwerpunkt im Java-Backend- und JavaScript-Frontend-Bereich. Sicher beim Arbeiten mit großen Enterprise-Softwareprojekten, aber auch mit Projekten auf der grünen Wiese sowohl alleine als auch im Team. Hoher Anspruch an Codequalität und erfahren mit Testautomatisierung, Test-Driven Development, agilen Vorgehensweisen, Softwarearchitektur und in der Kundenkommunikation.",
+    "brief": "Senior Softwareentwickler mit Fokus auf Spring (Backend) und Angular (Frontend). Sicher beim Arbeiten mit großen Enterprise-Softwareprojekten, aber auch mit Projekten auf der grünen Wiese sowohl alleine als auch im Team. Hoher Anspruch an Codequalität und erfahren in Testautomatisierung, Test-Driven Development, agilen Vorgehensweisen, Softwarearchitektur und in der Kundenkommunikation.",
     "image": "stefan.jpg",
     "quote": "Geht nicht, gibt's nicht."
   },
@@ -139,11 +139,10 @@
           "Spring Boot",
           "JUnit",
           "Angular",
-          "OAuth"
+          "OAuth2"
         ],
         "highlights": [
-          "Verschiedene Erweiterungen am Backend (Spring Boot) für eine App im Bereich Elektromobilität für ein börsennotiertes Energieversorgungsunternehmen",
-          "Aufbau eines Portals für die Verwaltung von Ladesäulen und von Elektroauto-Flotten auf Basis von Angular und dem bestehenden Spring Boot Backend"
+          "Spring Boot Backend im Bereich Elektromobilität für ein börsennotiertes Energieversorgungsunternehmen erweitert und ein Portal für die Verwaltung von Ladesäulen und von Elektroauto-Flotten auf Basis von Angular und dem bestehenden Backend technisch mitkonzipiert und umgesetzt."
         ]
       },
       {
@@ -165,53 +164,38 @@
           "SOAP",
           "Angular",
           "Microservices",
-          "OAuth",
+          "OAuth2",
           "Keycloak",
           "Android",
           "OpenLayers"
         ],
         "highlights": [
-          "Mitarbeit an einem Networking-Features für eine Messe-App, welches über 2.500 Menschen dabei half, sich besser zu vernetzen. Mit Kunden und beteiligten Entwicklern von externen Dienstleistern abgestimmt und Integration von App und externem Backend betreut und für Android selbst umgesetzt.",
-          "App und Webfrontend für ein mobiles Formularmanagements auf Basis von Ionic und AngularJS implementiert, sowie Keycloak als OAuth2-Provider integriert. In einem Scrum-Team mit Backend-Entwicklern, Frontend-Entwicklern und QA eng zusammgearbeitet und Anforderungen mit allen beteiligten abgestimmt.",
+          "Mitarbeit an einem Networking-Feature für eine Messe-App, welches über 2.500 Menschen dabei half, sich besser zu vernetzen. Mit Kunden und beteiligten Entwicklern von externen Dienstleistern abgestimmt und Integration von App und externem Backend betreut und für Android selbst umgesetzt.",
+          "App und Webfrontend für ein mobiles Formularmanagement auf Basis von Ionic und AngularJS implementiert, sowie Keycloak als OAuth2-Provider integriert. In einem Scrum-Team mit Backend-Entwicklern, Frontend-Entwicklern und QA eng zusammgearbeitet und Anforderungen mit den beteiligten abgestimmt.",
           "Maßgebliche Beteiligung am Deep Map (TM) WebSDK Version 2+, welches die Integration von Indoor-Karten für Kunden wesentlich vereinfacht. Technologien ausgewählt, Architektur konzipiert und abgestimmt, Neu-Implementierung verschiedener Komponenten auf Basis der neusten OpenLayers-Version, TypeScript und weiteren zeitgemäßen Technologien.",
           "Dritt-Services (SOAP, REST) von Kundensystemen im Messeumfeld angebunden, um Nutzerdaten zwischen Webseite und Mobiler App zu synchronisieren.",
-          "Konfiguration von Messe-Web-Apps automatisiert und somit große Zeiteinsparung ermöglicht. Bestehenden Excel-Parser umfangreich Erweitert sowie fast vollständige Automatisierung der Konfiguration mithilfe von Jenkins erreicht.",
-          "Web-Apps für Messen und Kongresse auf Basis einer existierenden Codebasis (Grails, Spring Framework) erstellt und für individuelle Anforderungen angepassst und um neue Funktionen erweitert."
-        ]
-      },
-      {
-        "employer": "apinso GmbH",
-        "url": "http://www.apinso.com",
-        "position": "Softwareentwickler",
-        "location": "Mannheim",
-        "summary": "Tätigkeit als Softwareentwickler nach dem Bachelorstudium beim Schwesterunternehmen der sobedi GmbH",
-        "start": "2011-10",
-        "end": "2012-02",
-        "keywords": [
-          "Java EE",
-          "ZK Framework",
-          "Eclipse RCP",
-          "JBoss"
-        ]
+          "Konfiguration von Messe-Web-Apps automatisiert und somit große Zeiteinsparung ermöglicht. Bestehenden Excel-Parser umfangreich erweitert sowie fast vollständige Automatisierung der Konfiguration mithilfe von Jenkins erreicht."
+         ]
       },
       {
         "employer": "sobedi GmbH / apinso GmbH",
         "url": "http://www.sobedi.com",
-        "position": "Softwareentwickler (Praxisphasen des dualen Studiums)",
+        "position": "Praxisphasen des dualen Studiums, Softwareentwickler",
         "location": "Mannheim",
-        "summary": "Praxisphasen des dualen Studiums. Tätigkeitsschwerpunkte: Konzeption und Implementierung von Anforderungen in Java und Groovy (Backend und Frontend)",
+        "summary": "Praxisphasen des dualen Studiums. Tätigkeitsschwerpunkte: Konzeption und Implementierung von Anforderungen in Java und Groovy (Backend und Frontend). Danach Vollzeittätigkeit als Softwareentwickler apinso GmbH.",
         "start": "2008-10",
-        "end": "2011-09",
+        "end": "2012-02",
         "keywords": [
           "Java EE",
           "Groovy",
           "ZK Framework",
           "Eclipse RCP",
-          "Apache Ant"
+          "Apache Ant",
+          "JBoss"
         ],
         "highlights": [
-          "Implementierung einer domänenspezifischen Sprache auf Basis von Groovy, die den Nutzern die Nutzung von Excel-Ähnlichen Formeln erlaubt.",
-          "Tool zum automatischen Vergleichen von Applikations-Datenbanken umgesetzt, um eine erfogreiche Datenmigration sicherzustellen. Teilweise vor Ort beim Kunden (Schweiz).",
+          "Implementierung einer domänenspezifischen Sprache auf Basis von Groovy, welche die Nutzung von Excel-Ähnlichen Formeln erlaubt.",
+          "Tool zum automatischen Vergleichen von Applikations-Datenbanken umgesetzt, um eine erfolgreiche Datenmigration sicherzustellen.",
           "Deployment von Applikationen mithilfe von Apache Ant automatisiert."
         ]
       }
