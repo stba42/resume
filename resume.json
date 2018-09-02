@@ -53,7 +53,9 @@
         "AWS",
         "Node.js",
         "Handlebars",
-        "TheMovieDB API"
+        "TheMovieDB API",
+        "Firebase Authentication",
+        "Firebase Realtime Database"
       ]
     },
     {
@@ -80,7 +82,8 @@
       "summary": "Erstellung der Webseite und eines MVP auf Basis von Grails",
       "keywords": [
         "Grails",
-        "JMS"
+        "JMS",
+        "OAuth2 (Auth0)"
       ]
     },
     {
