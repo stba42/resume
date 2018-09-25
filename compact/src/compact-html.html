@@ -46,23 +46,7 @@
     {{#*inline "icon-references"}}<span class="fa fa-thumbs-o-up"></span>{{/inline}}
     {{#*inline "icon-interests"}}<span class="fa fa-bicycle"></span>{{/inline}}
 
-    {{#*inline "body-employment" }}
-    <div>
-        <h3><em>{{ position }}</em>,
-            {{#if url }}
-            <a href="{{{ url }}}">{{ employer }}</a>
-            {{else}}
-            {{ employer }}
-            {{/if}}
-        </h3>
-        <span class="tenure">{{dateRange .}}</span>
-        <p>{{{ summary }}}</p>
-        {{> highlights }}
-        {{#if keywords}}
-        <span class="keywords">{{#each keywords}}{{{ . }}} {{/each}}</span>
-        {{/if}}
-    </div>
-    {{/inline}}
+
 
     {{#*inline "body-projects" }}
     <br/><br/>
@@ -137,7 +121,35 @@
         </section>
         {{/section}}
     {{> section/governance _icon="icon-governance"}}
-    {{> section/education _icon="icon-education"}}
+    {{#section "employment"}}
+    <hr>
+    <section id="employment">
+        {{#> header-employment }}
+        {{> header-icon _title="EMPLOYMENT" _section="employment" _hdricon=(lookup . '_icon') }}
+        {{/header-employment}}
+
+        {{#each r.employment.history}}
+        {{#> body-employment }}
+        <div>
+            <h3>
+                {{#if url }}
+                <b>{{ employer }}</b> (<a href="{{{ url }}}">{{ url }}</a>)
+                {{else}}
+                <b>{{ employer }}</b>
+                {{/if}}
+            </h3>
+            <p>{{ position }}, {{dateRange .}}</p>
+            <!--<p>{{location}}</p>-->
+            <!--<p>{{{ summary }}}</p>-->
+            <!--{{> highlights }}-->
+            {{#if keywords}}
+            <span class="keywords">Technologien: {{#each keywords}}{{ . }}{{#unless @last}}, {{/unless}}{{/each}}</span>
+            {{/if}}
+        </div><br/><br/>
+        {{/body-employment}}
+        {{/each}}
+    </section>
+    {{/section}}
     {{> section/service _icon="icon-service"}}
     {{> section/extracurricular _icon="icon-extracurricular"}}
     {{> section/affiliation _icon="icon-affiliation"}}
