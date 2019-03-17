@@ -13,13 +13,13 @@
   },
   "contact": {
     "website": "https://www.stefanbaust.de",
-    "phone": "(+49) 163 / 164 42 23",
+    "phone": "(+49) 1514 / 4572431",
     "email": "mail@stefanbaust.de"
   },
   "location": {
-    "address": "Hauptstr. 155",
-    "city": "Sandhausen",
-    "code": "69207",
+    "address": "Heidelberger Str. 2",
+    "city": "Nußloch",
+    "code": "69226",
     "country": "Deutschland"
   },
   "service" : null,
@@ -131,12 +131,29 @@
     "summary": "",
     "history": [
       {
+        "employer": "Großer europäischer Softwarehersteller",
+        "position": "Freelance Senior Full-Stack Developer",
+        "location": "Walldorf",
+        "summary": "",
+        "start": "2019-02",
+        "keywords": [
+          "Java",
+          "Spring",
+          "JUnit",
+          "Angular"
+        ],
+        "highlights": [
+          "Mitarbeit am Kassensystem auf Basis von Angular und Java (Spring) mit Fokus auf Funktionserweiterungen des neuen Frontends"
+        ]
+      },
+      {
         "employer": "BridgingIT GmbH (ehem. Heidelberg mobil International GmbH)",
         "url": "https://www.bridging-it.de/",
         "position": "Consultant",
         "location": "Heidelberg",
         "summary": "",
         "start": "2018-07",
+        "end": "2019-01",
         "keywords": [
           "Java",
           "Spring Boot",
@@ -304,7 +321,7 @@
         "name": "Testing",
         "level": "master",
         "skills": [
-          "JUNit",
+          "JUnit",
           "Mockito",
           "Jasmine",
           "Karma"

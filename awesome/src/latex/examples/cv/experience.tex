@@ -2,7 +2,7 @@
 %-------------------------------------------------------------------------------
 %	SECTION TITLE
 %-------------------------------------------------------------------------------
-\cvsection{Festanstellungen}
+\cvsection{Freelancing / Festanstellungen}
 
 
 %-------------------------------------------------------------------------------
@@ -13,7 +13,7 @@
 %---------------------------------------------------------
   \cventry
     {[[ job.position ]]} % Job title
-    {[[ job.employer ]] \textnormal{\textit{(\href{[[ job.url ]]}{[[ job.url ]]})}}} % Organization
+    {[[ job.employer ]] [~ if (job.url) { ~]\textnormal{\textit{(\href{[[ job.url ]]}{[[ job.url ]]})}} [~ } ~]} % Organization
     {[[ job.location ]]} % Location
     {[[ h.dateRange( job ) ]]} % Date(s)
     {[~ if (job.summary && job.summary.length > 0) { ~][[ job.summary ]] \endgraf [~ } else {~] \vspace{-1.0\baselineskip} [~ } ~][~ if (job.highlights && job.highlights.length ) { ~]
