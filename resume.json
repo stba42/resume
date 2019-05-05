@@ -30,7 +30,7 @@
       "role": "Creator",
       "url": "http://www.exklusivtitel.de/",
       "start": "2015-06",
-      "description": "Seite zum Suchen und Finden von Videospielen, die nur für bestimmte Plattformen enrschienen sind",
+      "description": "Seite zum Suchen und Finden von Videospielen, die nur für bestimmte Plattformen erschienen sind",
       "summary": "Konzipiert und Umgesetzt - Der Hauptbestandteil des Projekts ist ein Import von WikiData in Elasticsearch um eine schnelle Durchsuchbarkeit zu ermöglichen",
       "keywords": [
         "WikiData",
